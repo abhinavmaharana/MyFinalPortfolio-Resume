@@ -434,3 +434,41 @@ section.counter_section > div h5 {
     color: var(--ternary);
     /* margin-bottom: 8px; */
 }
+
+section.work .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section.work .wrapper .portfolio .tabs ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section.work .wrapper .portfolio .tabs ul li a {
+    color: var(--dark);
+    border-bottom: 1px solid transparent;
+    padding: 10px 15px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+section.work .wrapper .portfolio .tabs ul li a.active {
+    border-color: var(--primary);
+    color: var(--dark);
+    
+}
+
+section.work .wrapper .portfolio .portfolio_wrapper {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+section.work .wrapper .portfolio .portfolio_wrapper a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
