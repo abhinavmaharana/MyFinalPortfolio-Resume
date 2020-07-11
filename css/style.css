@@ -481,8 +481,8 @@ section.work .wrapper .portfolio .portfolio_wrapper .item{
 
 section.work .wrapper .portfolio .portfolio_wrapper a img {
     display: block;
-    width: 120%;
-    height: 120%;
+    width: 130px;
+    height: 130px;
     object-fit: cover;
 }
 
